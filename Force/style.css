@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font: 400 1em/1.38 'Arial Black';
+}
+.header1 {
+  height: 65px;
+  background-color: rgb(248, 205, 0);
+}
+.header2 {
+    height: 33px;
+    background-color: rgb(225, 225, 225);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+.header3 {
+    width: 56%;
+    min-width: 540px;
+    height: 59px;
+    margin: 0 auto;
+}
+.header {
+    position: fixed;
+    z-index: 41;
+    width: 100%;
+    height: 98px;
+    margin: 0 auto;
+}
+.text1 {
+    float: left;
+    width: 229px;
+    height: 22px;
+    margin-top: 0;
+    font-size: 2em;
+    line-height: 0.88;
+}
+.header_buttons {
+    width: 56%;
+    height: 33px;
+    min-width: 540px;
+    margin: 0 auto;
+}
+.header_button1 {
+    border-left: 1px dotted rgb(178, 178, 178);
+}
+button {
+    display: inline-block;
+    height: 33px;
+    border: none;
+    border-right: 1px dotted rgb(178, 178, 178);
+    width: 33.333%;
+    font-size: 1em;
+    text-align: center;
+    font: 400 1em/1.38 'Arial Black';
+    color: rgb(0, 0, 0);
+}
+button:hover {
+    background-color: rgb(178, 178, 178);
+}
+.buy_button {
+    height: 75px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+    width: 35%;
+    margin-left: 33%;
+
+}
+.block_head {
+    height: 415px;
+    border-bottom: 3px solid rgb(248, 205, 0);
+    background-image: url('images/image%20(1).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block_headcover {
+    height: 415px;
+    background-color: rgba(229, 229, 229, 0.77);
+}
+.main {
+    width: 50%;
+    min-width: 540px;
+    margin: 663px auto 0;
+}
+.block_headpicture {
+    height: 415px;
+    margin-top: -1081px;
+    border-bottom: 3px solid rgb(235, 194, 0);
+    background-image: url('images/image%20(1).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+
+.space {
+    height: 91px;
+}
+footer {
+    height: 65px;
+    background-color: rgb(248, 205, 0);
+}
+.footer-box {
+    width: 56%;
+    min-width: 540px;
+    height: 65px;
+    margin: 0 auto;
+    background-color: rgb(248, 205, 0);
+}
+.text2 {
+    box-sizing: border-box;
+    padding: 19px;
+    width: 30%;
+    min-width: 540px;
+    margin: 0 auto;
+    font-size: 1em;
+    text-align: center;
+}
+.text3 {
+    height: 40px;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    width: 30%;
+    min-width: 540px;
+    margin: 0 auto;
+    text-align: center;
+}
+.text4 {
+    margin: 1em;
+    margin-left: 170px
+}
+.text5 {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 75%;
+    min-width: 540px;
+    margin: 0 auto;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+.block {
+    z-index: 3;
+    width: 28%;
+    height: 130px;
+    background: rgb(225, 225, 225) 50%/cover;
+    display: inline-block;
+    margin: 35px 0px 0px 7%;
+    border-radius: 5px;
+}
+.block2 {
+    margin-top: 20px;
+    height: 200px;
+    width: 100%;
+    background: rgb(255, 255, 255) 50%/cover;
+}
+.inblock2 {
+    float: left;
+    height: 200px;
+    width: 150px;
+    background: rgb(225, 225, 225) 50%/cover;
+}
+.picture {
+    text-align: center;
+    height: 300px;
+    width: 35%;
+    margin-left: 33%;
+}
+.img1 {
+    background-image: url('images/shaverma5(2).jpg');
+}
+.img2 {
+    background-image: url('images/image (1).jpg');
+}
+.img3 {
+    background-image: url('images/maxresdefault(3).jpg');
+}
+.img4 {
+    background-image: url('images/simple.jpg');
+}
+.img5 {
+    background-image: url('images/group.jpg');
+}
+.img6 {
+    background-image: url('images/image(2).jpg');
+}
+.img7 {
+    background-image: url('images/MeatPieces.jpg');
+}
+.img8 {
+    background-image: url('images/Mini2.jpeg');
+}
+.img9 {
+    background-image: url('images/PortableSh.jpg');
+}
+.img10 {
+    background-image: url('images/ShLunch.jpg');
+}
+.img11 {
+    background-image: url('images/Something.jpg');
+}
+.img12 {
+    background-image: url('images/SquareSh.jpg');
+}
+.img13 {
+    background-image: url('images/VegSh.jpg');
+}
+.img14 {
+    background-image: url('images/DessertSh.jpg');
+}
+.img15 {
+    background-image: url('images/Boat.jpg');
+}
+.inblock {
+    width: 100%;
+    height: 40px;
+    margin-top: 90px;
+    background-color: rgba(212, 212, 212, 0.77);
+    color: black;
+    float: left;
+    line-height: 0.95;
+    font-size: 15px;
+    border-radius: 0 0 5px 5px;
+}
+.first_block {
+    margin: 35px 0px 0px 0;
+}
+.last_block {
+    margin: 0 0 0 7%;
+}
