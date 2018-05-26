@@ -134,14 +134,13 @@ footer {
 }
 .text5 {
     box-sizing: border-box;
-    padding-top: 20px;
+    padding: 19px;
     width: 75%;
     min-width: 540px;
     margin: 0 auto;
     font-size: 1em;
     line-height: 1.5em;
-    word-spacing: 1px;
-    text-indent: 11px;
+    text-align: justify;
 }
 .block {
     z-index: 3;
