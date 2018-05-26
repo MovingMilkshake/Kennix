@@ -190,6 +190,7 @@ footer {
     background-image: url('images/Mini2.jpeg');
 }
 .img9 {
+    background: rgb(225, 225, 225) 90%/cover;
     background-image: url('images/PortableSh.jpg');
 }
 .img10 {
@@ -205,6 +206,7 @@ footer {
     background-image: url('images/VegSh.jpg');
 }
 .img14 {
+    background-position: center;
     background-image: url('images/DessertSh.jpg');
 }
 .img15 {
