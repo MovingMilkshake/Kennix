@@ -12,6 +12,10 @@ body {
     background-color: rgb(225, 225, 225);
     box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 .header3 {
     width: 56%;
     min-width: 540px;
@@ -130,12 +134,14 @@ footer {
 }
 .text5 {
     box-sizing: border-box;
-    padding: 20px;
+    padding-top: 20px;
     width: 75%;
     min-width: 540px;
     margin: 0 auto;
     font-size: 1em;
     line-height: 1.5em;
+    word-spacing: 1px;
+    text-indent: 11px;
 }
 .block {
     z-index: 3;
@@ -228,4 +234,11 @@ footer {
 }
 .last_block {
     margin: 0 0 0 7%;
+}
+.vasya {
+    height: 1920px;
+    width: 100%;
+    background: black;
+    padding: auto;
+    color: white;
 }

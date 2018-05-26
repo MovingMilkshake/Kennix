@@ -1,0 +1,16 @@
+body {
+    background: black;
+    margin: 0;
+    color: white;
+    font: 400 1em/1.38 'Arial Black';
+}
+.vasya {
+    height: 100px;
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3em;
+}
+.space {
+    height: 350px;
+}
