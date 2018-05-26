@@ -183,6 +183,7 @@ footer {
     background-image: url('images/image(2).jpg');
 }
 .img7 {
+    background: rgb(225, 225, 225) 90%/cover;
     background-image: url('images/MeatPieces.jpg');
 }
 .img8 {
