@@ -108,7 +108,7 @@ button:hover {
 footer {
     height: 65px;
     background-color: rgb(248, 205, 0);
-    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, .5);
+    
 }
 .footer-box {
     width: 56%;
@@ -116,6 +116,7 @@ footer {
     height: 65px;
     margin: 0 auto;
     background-color: rgb(248, 205, 0);
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, .5);
 }
 .text2 {
     box-sizing: border-box;
