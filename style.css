@@ -73,6 +73,10 @@ button:hover {
     background-image: url('images/image%20(1).jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    
+}
+.block_head_animation{
+    animation: movingimg 30s infinite;
 }
 
 .block_headcover {
@@ -92,8 +96,11 @@ button:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
+    
 }
-
+.block_headpicture_animation {
+    animation: movingimg 30s infinite
+}
 
 .space {
     height: 91px;
@@ -154,8 +161,12 @@ footer {
     box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
     transition: 2s
 }
+img {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
 .block:hover {
-    transform: translate(0, -10px)
+    transform: translate(0, -4px)
 }
 
 .block2 {
@@ -175,6 +186,26 @@ footer {
     height: 300px;
     width: 35%;
     margin-left: 33%;
+}
+@keyframes movingimg {
+    0% {
+        background-image: url('images/image (1).jpg');
+    }
+    20% {
+        background-image: url('images/shaverma5(2).jpg');
+    }
+    40% {
+        background-image: url('images/MeatPieces.jpg');
+    }
+    60% {
+        background-image: url('images/SquareSh.jpg');
+    }
+    80% {
+        background-image: url('images/VegSh.jpg');
+    }
+    100% {
+        background-image: url('images/image (1).jpg');
+    }
 }
 .img1 {
     background-image: url('images/shaverma5(2).jpg');
@@ -236,10 +267,10 @@ footer {
     border-radius: 0 0 5px 5px;
     transition: 2s
 }
-.inblock:hover {
+.block:hover .inblock{
     height: 50px;
     transform: translate(0, -10px);
-    background-color: rgba(140, 140, 140, 0.77);
+    background-color: rgba(180, 180, 180, 0.77);
 }
 
 .first_block {
