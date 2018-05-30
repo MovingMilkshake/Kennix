@@ -101,6 +101,7 @@ button:hover {
 footer {
     height: 65px;
     background-color: rgb(248, 205, 0);
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, .5);
 }
 .footer-box {
     width: 56%;
@@ -151,7 +152,12 @@ footer {
     margin: 35px 0px 0px 7%;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+    transition: 2s
 }
+.block:hover {
+    transform: translate(0, -10px)
+}
+
 .block2 {
     margin-top: 20px;
     height: 200px;
@@ -232,7 +238,8 @@ footer {
 }
 .inblock:hover {
     height: 50px;
-    transform: translate(0, -10px)
+    transform: translate(0, -10px);
+    background-color: rgba(140, 140, 140, 0.77);
 }
 
 .first_block {
