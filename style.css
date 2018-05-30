@@ -186,8 +186,15 @@ img {
 .picture {
     text-align: center;
     height: 300px;
+    width: 50%;
+    margin-left: 25%;
+}
+.picture2 {
+    text-align: center;
+    height: 300px;
     width: 35%;
     margin-left: 33%;
+}
 }
 @keyframes movingimg {
     0% {
