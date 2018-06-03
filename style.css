@@ -18,7 +18,7 @@ a {
 }
 .header3 {
     width: 56%;
-    min-width: 540px;
+    min-width: 400px;
     height: 59px;
     margin: 0 auto;
 }
@@ -40,7 +40,7 @@ a {
 .header_buttons {
     width: 56%;
     height: 33px;
-    min-width: 540px;
+    min-width: 400px;
     margin: 0 auto;
 }
 .header_button1 {
@@ -87,7 +87,7 @@ button:hover {
 }
 .main {
     width: 50%;
-    min-width: 540px;
+    min-width: 400px;
     margin: 663px auto 0;
 }
 .block_headpicture {
@@ -113,7 +113,7 @@ footer {
 }
 .footer-box {
     width: 56%;
-    min-width: 540px;
+    min-width: 400px;
     height: 65px;
     margin: 0 auto;
     background-color: rgb(248, 205, 0);
@@ -123,7 +123,7 @@ footer {
     box-sizing: border-box;
     padding: 19px;
     width: 30%;
-    min-width: 540px;
+    min-width: 400px;
     margin: 0 auto;
     font-size: 1em;
     text-align: center;
@@ -134,7 +134,7 @@ footer {
     box-sizing: border-box;
     padding-top: 20px;
     width: 30%;
-    min-width: 540px;
+    min-width: 400px;
     margin: 0 auto;
     text-align: center;
 }
@@ -146,7 +146,7 @@ footer {
     box-sizing: border-box;
     padding: 19px;
     width: 75%;
-    min-width: 540px;
+    min-width: 400px;
     margin: 0 auto;
     font-size: 1em;
     line-height: 1.5em;
