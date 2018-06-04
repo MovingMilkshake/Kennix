@@ -17,18 +17,33 @@ a {
     color: black;
 }
 .header3 {
-    width: 56%;
-    min-width: 540px;
+    min-width: 300px;
     height: 59px;
-    margin: 0 auto;
 }
+@media (min-width: 768px) {
+    .header3 {
+        margin: 0 auto;
+        width: 81%;
+    }
+}
+@media (min-width:1366px) {
+    .header3 {
+        width: 56%;
+    }
+}
+
 .header {
     position: fixed;
     z-index: 41;
     width: 100%;
     height: 98px;
-    margin: 0 auto;
 }
+@media (min-width: 768px) {
+    .header {
+        margin: 0 auto;
+    }
+}
+
 .text1 {
     float: left;
     width: 229px;
@@ -38,11 +53,21 @@ a {
     line-height: 0.88;
 }
 .header_buttons {
-    width: 56%;
     height: 33px;
-    min-width: 540px;
-    margin: 0 auto;
+    min-width: 300px;
 }
+@media (min-width: 768px) {
+    .header_buttons {
+        margin: 0 auto;
+        width: 81%;
+    }
+}
+@media (min-width:1366px) {
+    .header_buttons {
+        width: 56%;
+    }
+}
+
 .header_button1 {
     border-left: 1px dotted rgb(178, 178, 178);
 }
@@ -64,9 +89,9 @@ button:hover {
 .buy_button {
     height: 75px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
-    width: 35%;
-    margin-left: 33%;
+    width: 300px;
     transition: 0.5s;
+    margin: auto;
 
 }
 .block_head {
@@ -85,11 +110,23 @@ button:hover {
     height: 415px;
     background-color: rgba(229, 229, 229, 0.77);
 }
-.main {
-    width: 50%;
-    min-width: 540px;
-    margin: 663px auto 0;
+.main { 
+    min-width: 300px;
+    margin-top: 663px;
+    text-align: center;
 }
+@media (min-width: 768px) {
+    .main {
+        margin: 663px auto 0;
+        width: 75%;
+    }
+}
+@media (min-width:1366px) {
+    .main {
+        width: 50%;
+    }
+}
+
 .block_headpicture {
     height: 415px;
     margin-top: -1081px;
@@ -110,20 +147,21 @@ button:hover {
 footer {
     height: 65px;
     background-color: rgb(248, 205, 0);
+    
 }
 .footer-box {
     width: 56%;
-    min-width: 540px;
+    min-width: 300px;
     height: 65px;
     margin: 0 auto;
     background-color: rgb(248, 205, 0);
+    box-sizing: border-box;
     
 }
 .text2 {
     box-sizing: border-box;
-    padding: 19px;
-    width: 30%;
-    min-width: 540px;
+    padding: 16px 19px 5px 19px;
+    min-width: 300px;
     margin: 0 auto;
     font-size: 1em;
     text-align: center;
@@ -134,35 +172,59 @@ footer {
     box-sizing: border-box;
     padding-top: 20px;
     width: 30%;
-    min-width: 540px;
+    min-width: 300px;
     margin: 0 auto;
     text-align: center;
 }
 .text4 {
-    margin: 1em;
-    margin-left: 170px
+    font-size: 1em;
+    margin-left: 170px;
+    text-align: left;
+}
+.small {
+    font-size: 0.75em;
 }
 .text5 {
-    box-sizing: border-box;
-    padding: 19px;
-    width: 75%;
-    min-width: 540px;
-    margin: 0 auto;
+    margin: 30px 5px;
+    min-width: 300px;
     font-size: 1em;
     line-height: 1.5em;
     text-align: justify;
 }
+@media (min-width: 768px) {
+    .text5 {
+        width: 75%;
+        margin: 30px auto;
+    }
+}
+
 .block {
     z-index: 3;
-    width: 28%;
+    width: 100%;
     height: 130px;
-    background: rgb(225, 225, 225) 50%/cover;
-    display: inline-block;
-    margin: 35px 0px 0px 7%;
-    border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
-    transition: 2s
+    margin: 10px 10px 0 0;
+    text-align: left;
+    position: relative;
+    background: rgb(225, 225, 225) 50%/cover;
+    border-radius: 5px;
+    transition: 2s;
 }
+@media (min-width: 768px) {
+    .block {
+        width: 240px;
+        display: inline-block;
+        vertical-align: top;
+        background: rgb(225, 225, 225) 50%/cover;
+    }
+}
+@media (min-width:1366px) {
+    .block {
+        width: 260px;
+        background: rgb(225, 225, 225) 50%/cover;
+    }
+}    
+
 img {
     box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
 }
@@ -186,14 +248,13 @@ img {
 .picture {
     text-align: center;
     height: 300px;
-    width: 50%;
-    margin-left: 25%;
+    width: 75%;
+    margin: auto;
 }
-.picture2 {
-    text-align: center;
-    height: 300px;
-    width: 35%;
-    margin-left: 32.5%;
+@media (min-width: 768px) {
+    .picture {
+        width: 40%;
+    }
 }
 
 @keyframes movingimg {
@@ -287,11 +348,4 @@ img {
 }
 .last_block {
     margin: 0 0 0 7%;
-}
-.vasya {
-    height: 1920px;
-    width: 100%;
-    background: black;
-    padding: auto;
-    color: white;
 }
