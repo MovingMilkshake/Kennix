@@ -15,6 +15,7 @@ body {
 a {
     text-decoration: none;
     color: black;
+    transition: 0s
 }
 .header3 {
     min-width: 300px;
