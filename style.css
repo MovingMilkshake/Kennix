@@ -96,6 +96,7 @@ button:hover {
 
 }
 .block_head {
+    height: 100%;
     height: 415px;
     border-bottom: 3px solid rgb(248, 205, 0);
     background-image: url('images/image%20(1).jpg');
@@ -108,10 +109,12 @@ button:hover {
 }
 
 .block_headcover {
+    width: 100%;
     height: 415px;
     background-color: rgba(229, 229, 229, 0.77);
 }
-.main { 
+.main {
+    width: 100%;
     min-width: 300px;
     margin-top: 663px;
     text-align: center;
@@ -129,6 +132,7 @@ button:hover {
 }
 
 .block_headpicture {
+    width: 100%;
     height: 415px;
     margin-top: -1081px;
     border-bottom: 3px solid rgb(235, 194, 0);
@@ -146,6 +150,7 @@ button:hover {
     height: 91px;
 }
 footer {
+    width: 100%;
     height: 65px;
     background-color: rgb(248, 205, 0);
     
@@ -182,10 +187,21 @@ footer {
     margin-left: 170px;
     text-align: left;
 }
+
 .small {
-    margin-left: 170px;
-    font-size: 0.75em;
+    font-size: 0.5em;
 }
+@media (min-width: 768px) {
+    .small {
+        font-size: 0.75em
+    }
+}
+@media (min-width:1366px) {
+    .small {
+        font-size: 0.99em
+    }
+}
+
 .text5 {
     margin: 40px 10px;
     min-width: 300px;
