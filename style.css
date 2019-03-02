@@ -3,13 +3,12 @@ body {
     color: rgb(0, 0, 0);
     font: 400 1em/1.38 'Arial Black';
 }
-body button::selection, div::selection, img::selection, p::selection, h1::selection, h2::selection{
+body a::selection, button::selection, div::selection, img::selection, p::selection, h1::selection, h2::selection{
     color: black;
-    background: rgb(248, 205, 0)
+    background: rgb(248, 205, 0);
 }
 
 .header1 {
-  height: 65px;
   background-color: rgb(248, 205, 0);
 }
 .header2 {
@@ -20,11 +19,10 @@ body button::selection, div::selection, img::selection, p::selection, h1::select
 a {
     text-decoration: none;
     color: black;
-    transition: 0s
+    transition: 0s;
 }
 .header3 {
     min-width: 300px;
-    height: 59px;
 }
 @media (min-width: 768px) {
     .header3 {
@@ -42,7 +40,6 @@ a {
     position: fixed;
     z-index: 41;
     width: 100%;
-    height: 98px;
 }
 @media (min-width: 768px) {
     .header {
@@ -51,16 +48,16 @@ a {
 }
 
 .text1 {
-    float: left;
     width: 229px;
-    height: 22px;
-    margin-top: 0;
+    margin: 0;
     font-size: 2em;
     line-height: 0.88;
+    padding-bottom: 10px;
 }
 .header_buttons {
     height: 33px;
     min-width: 300px;
+    border-left: 1px dotted rgb(178, 178, 178);
 }
 @media (min-width: 768px) {
     .header_buttons {
@@ -98,7 +95,8 @@ button:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
     width: 300px;
     transition: 0.5s;
-    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
 
 }
 .block_head {
@@ -122,12 +120,11 @@ button:hover {
 .main {
     width: 100%;
     min-width: 300px;
-    margin-top: 663px;
+    margin: auto;
     text-align: center;
 }
 @media (min-width: 768px) {
     .main {
-        margin: 663px auto 0;
         width: 75%;
     }
 }
@@ -140,31 +137,49 @@ button:hover {
 .block_headpicture {
     width: 100%;
     height: 415px;
-    margin-top: -1081px;
     border-bottom: 3px solid rgb(235, 194, 0);
     background-image: url('images/image%20(1).jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
-    
+    margin: auto;
 }
+@media (min-width: 768px) {
+    .block_headpicture {
+        width: 75%;
+    }
+}
+@media (min-width:1366px) {
+    .block_headpicture {
+        width: 50%;
+    }
+}
+
 .block_headpicture_animation {
     animation: movingimg 30s infinite
 }
 
-.space {
-    height: 91px;
+.makesthingsbetter {
+    height: 90px;
 }
+
+.space {
+    height: 10px;
+}
+@media (min-width: 768px) {
+    .space {
+        height: 90px;
+    }
+}
+
 footer {
     width: 100%;
-    height: 65px;
     background-color: rgb(248, 205, 0);
     
 }
 .footer-box {
     width: 56%;
     min-width: 300px;
-    height: 65px;
     margin: 0 auto;
     background-color: rgb(248, 205, 0);
     box-sizing: border-box;
@@ -172,14 +187,13 @@ footer {
 }
 .text2 {
     box-sizing: border-box;
-    padding: 16px 19px 5px 19px;
+    padding: 15px;
     min-width: 300px;
     margin: 0 auto;
     font-size: 1em;
     text-align: center;
 }
 .text3 {
-    height: 40px;
     font-size: 20px;
     box-sizing: border-box;
     padding-top: 20px;
@@ -254,7 +268,7 @@ img {
 }
 
 .block:hover {
-    transform: translate(0, -4px)
+    transform: translate(0, -4px);
 }
 
 .block2 {
@@ -270,10 +284,7 @@ img {
     background: rgb(225, 225, 225) 50%/cover;
 }
 .picture {
-    text-align: center;
-    height: 300px;
     width: 75%;
-    margin: auto;
 }
 @media (min-width: 768px) {
     .picture {
@@ -359,7 +370,7 @@ img {
     line-height: 0.95;
     font-size: 15px;
     border-radius: 0 0 5px 5px;
-    transition: 2s
+    transition: 2s;
 }
 .block:hover .inblock{
     height: 50px;
