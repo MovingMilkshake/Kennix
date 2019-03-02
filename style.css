@@ -294,22 +294,22 @@ img {
 
 @keyframes movingimg {
     0% {
-        background-image: url('images/image (1).jpg');
-    }
-    20% {
-        background-image: url('images/shaverma5(2).jpg');
-    }
-    40% {
         background-image: url('images/MeatPieces.jpg');
     }
-    60% {
+    20% {
         background-image: url('images/SquareSh.jpg');
     }
-    80% {
+    40% {
         background-image: url('images/VegSh.jpg');
     }
-    100% {
+    60% {
+        background-image: url('images/shaverma5(2).jpg');
+    }
+    80% {
         background-image: url('images/image (1).jpg');
+    }
+    100% {
+        background-image: url('images/MeatPieces.jpg');
     }
 }
 .img1 {
