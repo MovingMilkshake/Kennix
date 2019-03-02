@@ -12,7 +12,6 @@ body a::selection, button::selection, div::selection, img::selection, p::selecti
   background-color: rgb(248, 205, 0);
 }
 .header2 {
-    height: 33px;
     background-color: rgb(225, 225, 225);
     box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
 }
@@ -55,7 +54,6 @@ a {
     padding-bottom: 10px;
 }
 .header_buttons {
-    height: 33px;
     min-width: 300px;
     border-left: 1px dotted rgb(178, 178, 178);
 }
@@ -76,7 +74,6 @@ a {
 }
 button {
     display: inline-block;
-    height: 33px;
     border: none;
     border-right: 1px dotted rgb(178, 178, 178);
     width: 33.333%;
@@ -86,6 +83,7 @@ button {
     color: rgb(0, 0, 0);
     background-color: rgb(225, 225, 225);
     transition: 0.5s;
+    padding: 5px;
 }
 button:hover {
     background-color: rgb(178, 178, 178);
