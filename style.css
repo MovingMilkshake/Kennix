@@ -244,7 +244,7 @@ footer {
     position: relative;
     background: rgb(225, 225, 225) 50%/cover;
     border-radius: 5px;
-    transition: 2s;
+    transition: 0.75s;
 }
 @media (min-width: 768px) {
     .block {
@@ -374,7 +374,7 @@ img {
     line-height: 0.95;
     font-size: 15px;
     border-radius: 0 0 5px 5px;
-    transition: 2s;
+    transition: 0.75s;
 }
 .block:hover .inblock{
     height: 50px;

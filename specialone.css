@@ -5,12 +5,19 @@ body {
     font: 400 1em/1.38 'Arial Black';
 }
 .vasya {
-    height: 100px;
-    width: 750px;
-    margin: 0 auto;
+    margin: 150px auto;
     text-align: center;
     font-size: 3em;
 }
-.space {
-    height: 350px;
+@media (min-width: 768px) {
+    .vasya {
+        width: 550px;
+        margin: 250px auto;
+    }
+}
+@media (min-width:1366px) {
+    .vasya {
+        margin: 350px auto;
+        width: 750px;
+    }
 }
