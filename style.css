@@ -306,6 +306,9 @@ img {
     80% {
         background-image: url('images/image (1).jpg');
     }
+    90% {
+        background-image: url('images/SobakaBarabaka.jpg');
+    }
     100% {
         background-image: url('images/MeatPieces.jpg');
     }
@@ -357,6 +360,9 @@ img {
 }
 .img15 {
     background-image: url('images/Boat.jpg');
+}
+.imgfinal {
+    background-image: url('images/final.jpg')
 }
 .inblock {
     width: 100%;
